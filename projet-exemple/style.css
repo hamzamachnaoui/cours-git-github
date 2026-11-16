@@ -1,0 +1,33 @@
+/* Exercice : sur une branche "couleur", change la valeur de --accent */
+:root {
+  --accent: #2fa8ff;
+  --fond: #0d111c;
+  --texte: #ecf0f6;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--fond);
+  color: var(--texte);
+  font-family: system-ui, sans-serif;
+}
+
+.carte {
+  max-width: 520px;
+  padding: 32px;
+  border: 3px solid var(--accent);
+  border-radius: 16px;
+}
+
+h1 {
+  color: var(--accent);
+}
+
+code {
+  background: #1b2130;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
